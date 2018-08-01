@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.block {
+  padding: 16px;
+}
+
+.col-title {
+  width: 140px;
+}
+
+form {
+  width: 100%;
+  text-align: center;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "app-form"
+  "."
+  ".";
+}
+
+#app form {
+  grid-area:app-form;
+}
