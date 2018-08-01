@@ -13,8 +13,13 @@ body {
   padding: 16px;
 }
 
-.col-title {
-  width: 140px;
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+svg {
+  height: 120px;
 }
 
 form {
